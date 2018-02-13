@@ -1,0 +1,15 @@
+<div class="w3-card-4">
+	<div class="w3-bar w3-dark-grey">
+		<a class="w3-bar-item w3-button" [routerLink]="['/dashboard/employee']">Employee</a>
+		<a class="w3-bar-item w3-button" [routerLink]="['/dashboard/project']">Project</a>
+		<a class="w3-bar-item w3-button" [routerLink]="['/dashboard/manageproject']">Project Management</a>
+		<span class="w3-bar-item w3-green w3-right w3-bold" style="font-family: verdana;">Welcome {{activeUser.firstName}}</span>
+	</div>
+	<div class="w3-row w3-padding w3-left-align">
+		<div style="height: 600px;">
+			<div>
+				<p>Welcome dude, You can select link from left panel to do any operation.
+			</div>
+		</div>
+	</div>
+</div>
